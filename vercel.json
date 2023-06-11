@@ -1,0 +1,12 @@
+{
+    "functions": {
+      "index.js": {
+        "memory": 1024      }
+    },
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "index.js"
+      }
+    ]
+  }

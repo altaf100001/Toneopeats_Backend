@@ -7,8 +7,9 @@ const dishesSchema = new mongoose.Schema({
     qty: {type:String,required:true},
     price: {type:String,required:true},
     count: {type:Number,required:true},
-    stock: {type:String,required:true},
+    type: {type:String,required:true},
     category: {type:String,required:true},
+    kal: {type:String,required:true},
    
 
 

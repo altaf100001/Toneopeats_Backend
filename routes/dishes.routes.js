@@ -8,8 +8,7 @@ const {foodData,juicedata}  =require('../controller/dishes')
 
 dishesController.get('/dishes',foodData)
 
-dishesController.get('/scroll',juicedata
-)
+
 
 
 
