@@ -17,7 +17,7 @@ app.get("/",(req,res)=>{
 
 })
 
-app.use("/dishes",dishesController)
+app.use(dishesController)
 
 
 app.listen(PORT,async()=>{
