@@ -8,7 +8,7 @@ exports.foodData =
         
         
         
-        const dishData =await DishesModel.find({type:"food"})
+        const dishData =await DishesModel.find()
         
         if (dishData.length == 0) {
             throw new Error('no data found')
