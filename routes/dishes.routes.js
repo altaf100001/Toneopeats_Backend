@@ -6,7 +6,7 @@ const {DishesModel} = require("../models/dishes.model")
 const {foodData,juicedata}  =require('../controller/dishes')
 
 
-dishesController.get('/dishes',foodData)
+dishesController.post('/dishes',foodData)
 
 
 

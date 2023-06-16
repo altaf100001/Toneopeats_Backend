@@ -4,6 +4,8 @@ const {DishesModel} = require("../models/dishes.model")
 exports.foodData =
     async(req,res)=>{
 
+console.log(req,"reqqqqqqq")
+
         try {
         
         
