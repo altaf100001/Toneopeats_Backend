@@ -4,13 +4,15 @@ const {DishesModel} = require("../models/dishes.model")
 exports.foodData =
     async(req,res)=>{
 
-console.log(req,"reqqqqqqq")
+const {value} = req.body
+
+const query = value ? { type: value } : {};
 
         try {
         
         
         
-        const dishData =await DishesModel.find()
+        const dishData =await DishesModel.find(query)
         
         if (dishData.length == 0) {
             throw new Error('no data found')
