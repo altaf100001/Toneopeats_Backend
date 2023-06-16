@@ -3,7 +3,7 @@ const {DishesModel} = require("../models/dishes.model")
 
 exports.foodData =
     async(req,res)=>{
-
+const {value} = req.body
         try {
         
         
